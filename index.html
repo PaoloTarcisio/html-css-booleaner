@@ -9,25 +9,24 @@
     <body>
         <!-- header -->
         <header>
-            <img src="img/pattern.png" alt="Pattern" id="pattern">
             <img src="img/logo.svg" alt="Logo" id="logo">
         </header>
 
         <main>
             <section class="articolo">
                 <div class="intestazione">
-                    <h1>Internet deve essere al servizio del " bene pubblico": il manifesto di Tim Berners-Lee</h1>
-                    <h2 id="autore">Scritto da <span>The Booleaner</span></h2>
+                    <h1 id="titolo">Internet deve essere al servizio del " bene pubblico": il manifesto di Tim Berners-Lee</h1>
+                    <h2 id="autore">Scritto da <span id="the-booleaner">The Booleaner</span></h2>
                     <span id="data">il 10/10/2020</span>
                 </div>
                 <div class="fotografie">
                     <img src="img/tim-1.jpg" alt="tim-1">
                     <img src="img/tim-2.jpg" alt="tim-2">
-                    <p class="didascalia">Ist Photo: John S. and James L. Knight Foundation. by Scott Henrichsen</p>
-                    <p class="didascalia">2nd Photo: Wikipedia, by Paul Clarke</p>
+                    <span class="didascalia">Ist Photo: John S. and James L. Knight Foundation. by Scott Henrichsen</span>
+                    <span class="didascalia">2nd Photo: Wikipedia, by Paul Clarke</span>
                 </div>
                 <div class="testo">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, eligendi laudantium porro eveniet quas voluptas animi. Tenetur, nostrum? Numquam corporis cum itaque voluptatibus, suscipit dolore qui esse eum vero reprehenderit perferendis distinctio aliquid odit! Optio natus placeat quasi, exercitationem tempore beatae esse voluptas itaque aliquam cumque aut ratione magni facilis animi explicabo accusamus omnis officia magnam minima, inventore libero perspiciatis. Optio debitis aperiam reiciendis porro voluptatibus error, nisi et at dolor nostrum recusandae molestias facilis dolore voluptatem. Numquam, sit ut.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, eligendi laudantium porro eveniet quas voluptas animi. <span class="evidenziato">Tenetur, nostrum? Numquam corporis cum itaque voluptatibus</span>, suscipit dolore qui esse eum vero reprehenderit perferendis distinctio aliquid odit! Optio natus placeat quasi, exercitationem tempore beatae esse voluptas itaque aliquam cumque aut ratione magni facilis animi explicabo accusamus omnis officia magnam minima, inventore libero perspiciatis. Optio debitis aperiam reiciendis porro voluptatibus error, nisi et at dolor nostrum recusandae molestias facilis dolore voluptatem. Numquam, sit ut.</p>
                     
                     <ul>
                         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iusto facere, impedit non voluptate natus tempora numquam tempore, doloremque repellendus velit provident nemo excepturi voluptas quae magni. Cupiditate quis numquam velit ducimus blanditiis, vel quas libero veniam facilis exercitationem nam.</li>
@@ -46,17 +45,17 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr class="scuro">
                                     <td>Lorem, ipsum dolor.</td>
                                     <td>Lorem ipsum dolor sit amet.</td>
                                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a quasi architecto voluptatum. A assumenda ratione ipsa repellendus nisi voluptate.</td>        
                                 </tr>
-                                <tr>
+                                <tr class="chiaro">
                                     <td>Lorem, ipsum dolor.</td>
                                     <td>Lorem ipsum dolor sit amet.</td>
                                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a quasi architecto voluptatum. A assumenda ratione ipsa repellendus nisi voluptate.</td>        
                                 </tr>
-                                <tr>
+                                <tr class="scuro">
                                     <td>Lorem, ipsum dolor.</td>
                                     <td>Lorem ipsum dolor sit amet.</td>
                                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a quasi architecto voluptatum. A assumenda ratione ipsa repellendus nisi voluptate.</td>        
@@ -64,12 +63,18 @@
                             </tbody>
                         </table>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, eligendi laudantium porro eveniet quas voluptas animi. Tenetur, nostrum? Numquam corporis cum itaque voluptatibus, suscipit dolore qui esse eum vero reprehenderit perferendis distinctio aliquid odit! Optio natus placeat quasi, exercitationem tempore beatae esse voluptas itaque aliquam cumque aut ratione magni facilis animi explicabo accusamus omnis officia magnam minima, inventore libero perspiciatis. Optio debitis aperiam reiciendis porro voluptatibus error, nisi et at dolor nostrum recusandae molestias facilis dolore voluptatem. Numquam, sit ut.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<span class="evidenziato"> Ab, eligendi laudantium porro eveniet quas voluptas animi.</span> Tenetur, nostrum? Numquam corporis cum itaque voluptatibus, suscipit dolore qui esse eum vero reprehenderit perferendis distinctio aliquid odit! Optio natus placeat quasi, exercitationem tempore beatae esse voluptas itaque aliquam cumque aut ratione magni facilis animi explicabo accusamus omnis officia magnam minima, inventore libero perspiciatis. Optio debitis aperiam reiciendis porro voluptatibus error, nisi et at dolor nostrum recusandae molestias facilis dolore voluptatem. Numquam, sit ut.</p>
                 </div>
                 <div class="suggerimenti">
                     <h2>Potrebbero interessarti</h2>
-                    <img src="img/monitor.jpg" alt="monitor" class="img-suggerimenti">
-                    <img src="img/graph.jpg" alt="graph" class="img-suggerimenti">
+                    <div class="img-sug">
+                        <img src="img/monitor.jpg" alt="monitor">
+                        <span class="sovrapposti">Lorem, ipsum dolor.</span>
+                    </div>
+                    <div class="img-sug">
+                        <img src="img/graph.jpg" alt="graph">
+                        <span class="sovrapposti">Lorem, ipsum dolor.</span>
+                    </div>
                 </div>
             </section>
         </main>

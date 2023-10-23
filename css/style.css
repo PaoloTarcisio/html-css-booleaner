@@ -1,0 +1,60 @@
+header{
+    background-color: rgb(97, 160, 248);
+    background-image: url(../img/pattern.png);
+    height: 10rem;
+}
+
+#logo{
+    width: 20%;
+}
+
+#titolo{
+    font-size: 300%;
+    margin-bottom: 0;
+}
+
+h2, #data{
+    color: grey;
+}
+
+#autore{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#the-booleaner{
+    color: lightblue;
+}
+
+.fotografie{
+    margin-top: 10px;
+}
+
+.didascalia{
+    display: block;
+}
+
+.testo{
+    font-size: 1.5rem;
+}
+
+.evidenziato{
+    background-color: yellow;
+}
+
+thead{
+    background-color: lightblue;
+}
+
+.scuro{
+    background-color: rgb(114, 114, 216);
+}
+
+.chiaro{
+    background-color: rgb(170, 170, 234);
+}
+
+.sovrapposti{
+    color: white;
+    font-size: 1.5rem;
+}
